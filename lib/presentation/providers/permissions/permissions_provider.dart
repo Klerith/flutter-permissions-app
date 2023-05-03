@@ -10,9 +10,7 @@ final permissionsProvider = StateNotifierProvider<PermissionsNotifier, Permissio
 
 class PermissionsNotifier extends StateNotifier<PermissionsState> {
   
-  PermissionsNotifier(): super( PermissionsState() ){
-    checkPermissions();
-  }
+  PermissionsNotifier(): super( PermissionsState() );
 
 
   Future<void> checkPermissions() async {
