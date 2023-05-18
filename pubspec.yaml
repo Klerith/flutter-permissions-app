@@ -7,6 +7,7 @@ environment:
   sdk: '>=3.0.0 <4.0.0'
 
 dependencies:
+  dio: ^5.1.2
   flutter:
     sdk: flutter
   flutter_compass: ^0.7.0
@@ -15,6 +16,7 @@ dependencies:
   google_fonts: ^4.0.4
   permission_handler: ^10.2.0
   sensors_plus: ^3.0.0
+  share_plus: ^7.0.0
 
 dev_dependencies:
   flutter_lints: ^2.0.0
