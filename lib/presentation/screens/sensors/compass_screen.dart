@@ -1,4 +1,3 @@
-import 'dart:math' show pi;
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -8,6 +7,8 @@ import 'package:miscelaneos/presentation/screens/screens.dart';
 
 class CompassScreen extends ConsumerWidget {
   const CompassScreen({super.key});
+
+  
 
   @override
   Widget build(BuildContext context, ref ) {
