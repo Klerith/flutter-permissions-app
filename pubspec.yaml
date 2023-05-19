@@ -19,6 +19,7 @@ dependencies:
   share_plus: ^7.0.0
 
 dev_dependencies:
+  change_app_package_name: ^1.1.0
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
