@@ -18,6 +18,8 @@ final menuItems = <MenuItem>[
   MenuItem('Brújula', Icons.explore, '/compass'),
   
   MenuItem('Pokemons', Icons.catching_pokemon, '/pokemons'),
+
+  MenuItem('Biometrics', Icons.fingerprint, '/biometrics'),
 ];
 
 

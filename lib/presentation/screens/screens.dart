@@ -14,3 +14,6 @@ export 'sensors/magnetometer_screen.dart';
 // Pokemons
 export 'pokemons/pokemons_screen.dart';
 export 'pokemons/pokemon_screen.dart';
+
+// Biometricos
+export 'biometrics/biometric_screen.dart';
