@@ -19,4 +19,6 @@ xcrun simctl openurl booted https://pokemon-deep-linking.up.railway.app/pokemons
 xcrun simctl openurl booted https://pokemon-deep-linking.up.railway.app/pokemons
 ```
 
+## Cambiar API Keys de Google Maps
+
 
