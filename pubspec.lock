@@ -102,6 +102,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_app_badger:
+    dependency: "direct main"
+    description:
+      name: flutter_app_badger
+      sha256: "64d4a279bab862ed28850431b9b446b9820aaae0bf363322d51077419f930fa8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.5.0"
   flutter_compass:
     dependency: "direct main"
     description:
@@ -480,6 +488,38 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.2.4"
+  quick_actions:
+    dependency: "direct main"
+    description:
+      name: quick_actions
+      sha256: "0562d78b8d6a87576fb8fe55bc655bda6ebe3c61a5904df56d20bd88f98cf3a3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.5"
+  quick_actions_android:
+    dependency: transitive
+    description:
+      name: quick_actions_android
+      sha256: "1a5e0498ab531b446b2b0b762ed0997f2dbb3d580e0af9009f87f621a278778e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.6"
+  quick_actions_ios:
+    dependency: transitive
+    description:
+      name: quick_actions_ios
+      sha256: "9ed8b003a65034de9f36a7f593026bf114c8796a38011b23240f8bf7e4668e2b"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.6"
+  quick_actions_platform_interface:
+    dependency: transitive
+    description:
+      name: quick_actions_platform_interface
+      sha256: "2985e12b5fecb5715a35cc0a3b2127b4391e1969e62bd0a4a721b4de21d5fedb"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.4"
   riverpod:
     dependency: transitive
     description:

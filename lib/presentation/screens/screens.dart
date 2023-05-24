@@ -23,3 +23,6 @@ export 'biometrics/biometric_screen.dart';
 export 'location/controlled_map_screen.dart';
 export 'location/location_screen.dart';
 export 'location/map_screen.dart';
+
+// Badge
+export 'badge/badge_screen.dart';
