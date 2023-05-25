@@ -17,11 +17,13 @@ dependencies:
   go_router: ^7.0.0
   google_fonts: ^4.0.4
   google_maps_flutter: ^2.2.6
+  google_mobile_ads: ^3.0.0
   local_auth: ^2.1.6
   permission_handler: ^10.2.0
   quick_actions: ^1.0.5
   sensors_plus: ^3.0.0
   share_plus: ^7.0.0
+  shared_preferences: ^2.1.1
 
 dev_dependencies:
   change_app_package_name: ^1.1.0

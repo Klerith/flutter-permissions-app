@@ -29,6 +29,10 @@ final menuItems = <MenuItem>[
   // Badge
   MenuItem('Badge', Icons.notification_important, '/badge'),
 
+  // Ads
+  MenuItem('Ad Full', Icons.ad_units_rounded, '/ad-fullscreen'),
+  MenuItem('Ad Reward', Icons.fort_sharp, '/ad-rewarded'),
+
 ];
 
 
@@ -89,7 +93,7 @@ class HomeMenuItem extends StatelessWidget {
           children: [
             Icon( icon, color: Colors.white, size: 40 ),
             const SizedBox(height: 10),
-            Text(title, textAlign: TextAlign.center, style: const TextStyle(color: Colors.white, fontSize: 10 ),)
+            Text(title, textAlign: TextAlign.center, overflow: TextOverflow.ellipsis, style: const TextStyle(color: Colors.white ),)
           ],
         ),
       ),
