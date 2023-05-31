@@ -18,18 +18,24 @@ dependencies:
   google_fonts: ^4.0.4
   google_maps_flutter: ^2.2.6
   google_mobile_ads: ^3.0.0
+  isar: ^3.1.0+1
+  isar_flutter_libs: ^3.1.0+1
   local_auth: ^2.1.6
+  path_provider: ^2.0.15
   permission_handler: ^10.2.0
   quick_actions: ^1.0.5
   sensors_plus: ^3.0.0
   share_plus: ^7.0.0
   shared_preferences: ^2.1.1
+  workmanager: ^0.5.1
 
 dev_dependencies:
+  build_runner: ^2.4.4
   change_app_package_name: ^1.1.0
   flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
+  isar_generator: ^3.1.0+1
 
 flutter:
   uses-material-design: true

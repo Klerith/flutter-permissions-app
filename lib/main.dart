@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:miscelaneos/config/config.dart';
 import 'package:miscelaneos/presentation/providers/providers.dart';
+import 'package:workmanager/workmanager.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -10,6 +11,24 @@ void main() async {
   await AdmobPlugin.initialize();
 
   QuickActionsPlugin.registerActions();
+
+  Workmanager().initialize(
+    callbackDispatcher, // The top level function, aka callbackDispatcher
+    isInDebugMode: true // If enabled it will post a notification whenever the task is running. Handy for debugging tasks
+  );
+
+  // Workmanager().registerOneOffTask(
+  //   "com.fernandoherrera.miscelaneos.simpleTask1",
+  //   "com.fernandoherrera.miscelaneos.simpleTask",
+  //   inputData: { 'hola': 'mundo' },
+  //   constraints: Constraints(
+  //       networkType: NetworkType.connected,
+  //       // requiresBatteryNotLow: true,
+  //       // requiresCharging: true,
+  //       // requiresDeviceIdle: true,
+  //       // requiresStorageNotLow: true
+  //   )
+  // );
 
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp
